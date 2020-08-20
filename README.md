@@ -1,4 +1,4 @@
-Welcome to the OHIOH Repository!
+#Welcome to the OHIOH Repository!
 
 To get more information about the project and the university of applied sciences of Kiel stay tuned on following links:
 
@@ -6,7 +6,9 @@ https://ohioh.de
 
 https://fh-kiel.de
 
-Goal: [glimpse: field research, App-development, public health, risk scoring]
+#Goal: 
+
+[glimpse: field research, App-development, public health, risk scoring]
 
 We are a collective of voluntary helpers and student from all over the world. Togehter we work at the OHIOH ("Our Helath In Our Hands") Workgroup to explore newst technologies, Protocols (like GAEN or TCN) and User-Behavior to publish public Documents. On this way we want to help to fight corona and non-pandemics like flue. Educational work is nessesary to give the users of tracing App and influenced person a fair chance to decide the own privat way to use APPs. For further information we publish technologies which helps public Authorities like school, universities or Town halls to define there individual risk places and develop fact oriented instructions for action and the restart after covid-19.
 
