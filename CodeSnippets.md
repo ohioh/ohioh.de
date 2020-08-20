@@ -1,12 +1,3 @@
-https://backlog.com/git-tutorial/branching/merge/
-Good to know:
-remote repository - this is the repository hosted by github on the server
-initial repository  - your folder with the data
-
-pull - (down)  pull the latest change from the remote repository to our local repository 
-fetch - (down)
-push - (up) to the repository that you point example: $ git push -u origin master ( or in our case develop)
-Before you start check out how git works. If you know where you git head is at the moment you are ready to rock.
 
 
 #####################################  How to update our forked repo with git rebase
@@ -17,7 +8,7 @@ Step 3: Rewrite your master with upstream's master using git rebase.
 Step 4: Push your updates to master. You may need to force the push with “ --force ”
 
 1.go to repository with your terminal
-1.1 look woth $ git remote -v if origin and upstream is avaible.
+1.1 look with  $ git remote -v if origin and upstream is avaible.
 1.1 if no origin avaible clone the ohioh repo to you folder
 $git clone 
 or $ git remote origin  https://github.com/ohioh/gaen-mobile.git
