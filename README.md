@@ -10,12 +10,15 @@ As you have mentioned our github looks a bit different. At the moment you are in
 The reason is that we wish to give you as a new user an easy description to the project by it self and then go with you to the repository you are interested at.
 On more benifit on this way is that it is easier to handle. All Documentations are here. For you as a user it is easiert to follow aspecially to see updates in the update section.For us as voluntary for you it is easier to handle and stay tuned too.
 
+#The difference between PCF APPs and OHIOH:
 
 Progressive Web App:
-
 Two reasons for us to go an other way with the app then Pathcheck. On this point thousands thanks to PCF for the help
 
-actuallity and pwa
+Versions:
+We try to use the newest version of the packagemanagers like npm, yarn or podfiles.
+In one way this is more risky at our beginning but we hope to give you the newst avaible experince in the APP
+
 
 #Goal: 
 
