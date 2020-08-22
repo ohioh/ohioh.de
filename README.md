@@ -13,6 +13,10 @@ On more benifit on this way is that it is easier to handle. All Documentations a
 
 Progressive Web App:
 
+Two reasons for us to go an other way with the app then Pathcheck. On this point thousands thanks to PCF for the help
+
+actuallity and pwa
+
 #Goal: 
 
 [glimpse: field research, App-development, public health, risk scoring]
