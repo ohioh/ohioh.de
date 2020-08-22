@@ -13,7 +13,10 @@ On more benifit on this way is that it is easier to handle. All Documentations a
 #The difference between PCF APPs and OHIOH:
 
 Progressive Web App:
-Two reasons for us to go an other way with the app then Pathcheck. On this point thousands thanks to PCF for the help
+Two reasons for us to go an other way with the app then Pathcheck. On this point thousands thanks to PCF for the help.
+1.Expirience
+2. Core Features
+Service Worker, Background Sync, Web Push, Manifest ( install from browser as webpage ) 
 
 Versions:
 We try to use the newest version of the packagemanagers like npm, yarn or podfiles.
