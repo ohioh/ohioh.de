@@ -6,6 +6,13 @@ https://ohioh.de
 
 https://fh-kiel.de
 
+As you have mentioned our github looks a bit different. At the moment you are in the main repository. This repository has more text and documentation.
+The reason is that we wish to give you as a new user an easy description to the project by it self and then go with you to the repository you are interested at.
+On more benifit on this way is that it is easier to handle. All Documentations are here. For you as a user it is easiert to follow aspecially to see updates in the update section.For us as voluntary for you it is easier to handle and stay tuned too.
+
+
+Progressive Web App:
+
 #Goal: 
 
 [glimpse: field research, App-development, public health, risk scoring]
