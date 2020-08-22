@@ -15,7 +15,7 @@ On more benifit on this way is that it is easier to handle. All Documentations a
 # Progressive Web App:
 Two reasons for us to go an other way with the app then Pathcheck. On this point thousands thanks to PCF for the help.
 1.Expirience
-extreme fast and every actual
+extreme fast and every actual, progressive Enhancement for a maximal flexibility for you.
 
 2. Core Features
 Service Worker, Background Sync, Web Push, Manifest ( install from browser as webpage ) 
