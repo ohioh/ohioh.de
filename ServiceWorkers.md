@@ -1,6 +1,6 @@
 ## Service Worker:
 
-avaible for following browesers:
+avaible for following browsers:
 
 https:jakearchibald.github.io/isserviceworkerready/
 
