@@ -17,4 +17,4 @@ This works on the Service Worker Thread.
 
 # Service Worker Lifecycle:
 
-index.html ->(loads)-> app.js -> (register)-> ServiceWorker.js->(install)*-> Install Event from the cache. or *->(activated)->Activation
+index.html ->(loads)-> app.js -> (register)-> ServiceWorker.js->(install)*-> Install Event from the cache. or *->(activated)->Activation Event
