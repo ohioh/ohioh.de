@@ -18,6 +18,10 @@ The goal of this documentation is to make an understandable possibility to look 
 Two reasons for us to go an other way with the app then Pathcheck. On this point thousands thanks to PCF for the help.
 1.Expirience
 extreme fast and every actual, progressive Enhancement for a maximal flexibility for you.
+For coders: check out the following links to get well informations about pwa:
+https://developers.google.com/web/updates/capabilities
+https://developer.mozilla.org/de/docs/Web/Manifest
+https://www.w3.org/
 
 2. Core Features
 Service Worker, Background Sync, Web Push, Manifest ( install from browser as webpage ) 
