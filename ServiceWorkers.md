@@ -12,3 +12,9 @@ The only way how this will not happen is a normal xml-https Request or from pack
 # Push Notification:
 Like the communication way over the used Browser-Server. Our OHIOH Servers can communicate over this way with the Browser and the App at the device (to the client).
 This works on the Service Worker Thread.
+
+
+
+# Service Worker Lifecycle:
+
+index.html ->(loads)-> app.js -> (register)-> ServiceWorker.js->(install)*-> Install Event from the cache. or *->(activated)->Activation
