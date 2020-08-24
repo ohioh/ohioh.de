@@ -1,3 +1,8 @@
+## Service Worker:
+
+ "Multi-Thread" ( or two single Thread)  usage, this is an awesome feature that pwa support.Your basics like the DOM are running on a single thread. In normal everything you add in Js will added as workload to this thread. The ServiceWorker has a decoupled thread for usage. This push up the usability and performance on a nice way. This seperated Thread will still alaive if the browser is closed. Like a background Service that only need needs the visaul performance of the device whenn the user want to see the content of the application.Or in short "stay tuned and same time safe energy".
+The Service Workers make sure that only the needed JS-Files are used which are needed for the advantage of the users.
+
 # Event: Source
 
 # Fetch-API: 
