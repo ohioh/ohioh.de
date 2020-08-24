@@ -18,6 +18,10 @@ The goal of this documentation is to make an understandable possibility to look 
 Two reasons for us to go an other way with the app then Pathcheck. On this point thousands thanks to PCF for the help.
 1.Expirience
 extreme fast and every actual, progressive Enhancement for a maximal flexibility for you.
+As we mentioned that a lot of users are interested in the traffic, we are able to decide differnent ways to get updates,uploads and downloads for the app.
+This Traffic is necessary to get the newest information. As an example: This information can give you a push notification if you are influenced by the virus.
+We are able to giv eyou the choice how the traffic should happen. You can use only WIFI and will loose no traffic from your mobild data.
+
 For coders: check out the following links to get well informations about pwa:
 https://developers.google.com/web/updates/capabilities
 
