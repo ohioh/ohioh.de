@@ -29,8 +29,11 @@ https://developer.mozilla.org/de/docs/Web/Manifest
 
 https://www.w3.org/
 
+
 2. Core Features
 Service Worker, Background Sync, Web Push, Manifest ( install from browser as webpage ) 
+
+ServiceWorkers: "Multi-Thread" ( or two single Thread)  usage, this is an awesome feature that pwa support.Your basics like the DOM are running on a single thread. In normal everything you add in Js will added as workload to this thread. The ServiceWorker has a decoupled thread for usage. This push up the usability and performance on a nice way. This seperated Thread will still alaive if the browser is closed. Like a background Service that only need needs the visaul performance of the device whenn the user want to see the content of the application.Or in short "stay tuned and same time safe energy".
 
 # Versions:
 We try to use the newest version of the packagemanagers like npm, yarn or podfiles.
