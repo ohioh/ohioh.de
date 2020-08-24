@@ -20,7 +20,9 @@ Two reasons for us to go an other way with the app then Pathcheck. On this point
 extreme fast and every actual, progressive Enhancement for a maximal flexibility for you.
 For coders: check out the following links to get well informations about pwa:
 https://developers.google.com/web/updates/capabilities
+
 https://developer.mozilla.org/de/docs/Web/Manifest
+
 https://www.w3.org/
 
 2. Core Features
