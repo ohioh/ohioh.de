@@ -1,6 +1,9 @@
 Documentation from Google:
 https://developers.google.com/android/exposure-notifications/exposure-notifications-api
 
+# Bluetooth Exposure Notification Specificaton:
+https://blog.google/documents/70/Exposure_Notification_-_Bluetooth_Specification_v1.2.2.pdf
+
 
 The google Github about Exposure notification for android:
 https://github.com/google/exposure-notifications-android
