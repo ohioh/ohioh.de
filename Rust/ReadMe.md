@@ -1,6 +1,7 @@
 If you are new to Rust Lang  pls lookto the following link:
 
 https://www.rust-lang.org/learn
+https://doc.rust-lang.org/std/prelude/index.html
 
 We use both langauges:
 
