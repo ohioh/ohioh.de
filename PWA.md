@@ -26,3 +26,26 @@ the serviceWorker will ask for Networkconnection. When this is not avaible it wi
 
 This strategy helps in situation, where a relink or data change would brake the information by it self. MAyby when loading something from the database.
 Then it is important to only use cache when Nétwork is not avaible. On this way the dataquality is secured.
+
+## Strategy: Network Only
+
+This is the opposite to Cache only. This is how Homepage etc are working
+
+## Strategy: Network with Cache Fallback
+
+This strategy request a page from the ServiceWorker in a situation where the Network is not avaible.
+Then the serviceWorker will request this data from Cache. This is a very helpful strategy.
+
+## Strategy: Cache, then Network
+This is a really useful strategy in alot of cases. The idea is to get the content as fast and traffic saving as possible.
+If and update is avaible on the avaible network this will update the content.
+1.The page will directly request the cache and getting the content
+2.At the same time the page request the ServiceWorker that request the network for new content for the page and the cache.If new contant is avaible the serviceWorker pushit to the  page too. The user has the best experinace on this way
+Important for Coders:This  process is in the requested *.js file and the serviceWorker
+
+
+
+
+
+
+
