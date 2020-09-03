@@ -20,3 +20,9 @@ https://github.com/pwa-builder/pwa-starter
 
 If the ServiceWorker has to load something that is not yet avaible in the Cache [ because it wasn't loaded yet as an example] 
 the serviceWorker will ask for Networkconnection. When this is not avaible it will redirect  to the fallbackPage.html to inform the User about.
+
+
+## Strategy: Cache only
+
+This strategy helps in situation, where a relink or data change would brake the information by it self. MAyby when loading something from the database.
+Then it is important to only use cache when Nétwork is not avaible. On this way the dataquality is secured.
