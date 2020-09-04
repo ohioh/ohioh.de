@@ -52,7 +52,7 @@ Important for Coders:This  process is in the requested *.js file and the service
 
 ## Version: Cache then  Network  (all data to dynamic Caching after compare) Strategy:
 
-# Implimitionway for seperated files Step-byStep:
+## Implimitionway for seperated files Step-byStep:
 The important question to understand why we have do give this a look is "What is loaded first...the serviceworker or the wihed *.js file from the index.html?"
 
 
