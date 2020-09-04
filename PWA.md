@@ -43,10 +43,13 @@ If and update is avaible on the avaible network this will update the content.
 2.At the same time the page request the ServiceWorker that request the network for new content for the page and the cache.If new contant is avaible the serviceWorker pushit to the  page too. The user has the best experinace on this way
 Important for Coders:This  process is in the requested *.js file and the serviceWorker
 
-# Version: Cache then  Network  (all data to dynamic Caching again) Strategy:
+## Version: Cache then  Network  (all data to dynamic Caching again) Strategy:
 
 
-# Version: Cache then  Network  (all data to dynamic Caching after compare) Strategy:
+## Version: Cache then  Network  (all data to dynamic Caching after compare) Strategy:
+
+# Implimitionway for seperated files Step-byStep:
+The important question to understand why we have do give this a look is "What is loaded first...the serviceworker or the wihed *.js file from the index.html?"
 
 
 
