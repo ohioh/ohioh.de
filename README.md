@@ -1,4 +1,4 @@
-# Welcome to the OHIOH Repository!
+## Welcome to the OHIOH Repository!
 
 To get more information about the project and the university of applied sciences of Kiel stay tuned on following links:
 
@@ -11,6 +11,9 @@ The reason is that we wish to give you as a new user an easy description to the 
 On more benifit on this way is that it is easier to handle. All Documentations are here. For you as a user it is easiert to follow aspecially to see updates in the update section.For us as voluntary for you it is easier to handle and stay tuned too.
 
 The goal of this documentation is to make an understandable possibility to look in the code as a non-coder. Maybe you will not unterstand all at the beginning but if your are interested you should get a start as easy as possible.
+
+The easiest way to get started is  to use the Chrome-Browser. If you are not still using this, please  install it.
+After done work go the document https://github.com/ohioh/ohioh.de/tree/master/Chrome to get next interesting information about the Development Tool inside.
 
 # The difference between PCF APPs and OHIOH:
 
