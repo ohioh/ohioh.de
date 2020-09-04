@@ -15,7 +15,11 @@ https://open-wc.org/building/rollup-plugin-html.html
 https://lit-element.polymer-project.org/guide/start
 https://github.com/pwa-builder/pwa-starter
 
+# Install-Event:
 
+# Activate-Event:
+
+# Fetch-Event:
 ## Strategy: Cache with Network FallbackPage
 
 If the ServiceWorker has to load something that is not yet avaible in the Cache [ because it wasn't loaded yet as an example] 
