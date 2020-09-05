@@ -1,3 +1,5 @@
+### Events, Routes and Strategies:
+
 https://www.pwabuilder.com/
 
 https://web.dev/progressive-web-apps/
