@@ -1,5 +1,7 @@
 ### Events, Routes and Strategies:
 
+https://developers.google.com/web/updates/2015/07/interact-with-ble-devices-on-the-web
+
 https://www.pwabuilder.com/
 
 https://web.dev/progressive-web-apps/
