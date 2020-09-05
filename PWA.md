@@ -20,6 +20,14 @@ https://github.com/pwa-builder/pwa-starter
 # Activate-Event:
 
 # Fetch-Event:
+
+## OHIOH-Strategy
+
+We use  an combination to make sure of less Network-Traffic and maximal easy User-Experiance.
+1.
+2.
+3.
+
 ## Strategy: Cache with Network FallbackPage
 
 If the ServiceWorker has to load something that is not yet avaible in the Cache [ because it wasn't loaded yet as an example] 
