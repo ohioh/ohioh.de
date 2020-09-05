@@ -1,4 +1,4 @@
-### Events, Routes and Strategies:
+### Events, Routes and Cache-Network-Strategies  ( including Cache-Management ):
 
 https://www.pwabuilder.com/
 
