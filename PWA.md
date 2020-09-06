@@ -30,6 +30,12 @@ Videos:
 https://www.youtube.com/watch?v=srdKq0DckXQ
 https://www.youtube.com/watch?v=MyQ8mtR9WxI
 
+Caching-Links:
+https://www.afasterweb.com/2017/01/31/upgrading-your-service-worker-cache/
+https://jakearchibald.com/2014/offline-cookbook/
+https://serviceworke.rs/strategy-cache-and-update_service-worker_doc.html
+
+
 # Install-Event:
 
 # Activate-Event:
@@ -77,6 +83,8 @@ Important for Coders:This  process is in the requested *.js file and the service
 
 ## Implimitionway for seperated files Step-byStep:
 The important question to understand why we have do give this a look is "What is loaded first...the serviceworker or the wihed *.js file from the index.html?"
+
+## Kill a ServiceWorker
 
 
 
