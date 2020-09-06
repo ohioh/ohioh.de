@@ -12,12 +12,23 @@ https://zuixjs.github.io/zkit/
 
 https://zuixjs.org/
 
+https://codelabs.developers.google.com/codelabs/your-first-pwapp/#0
+
+https://www.quora.com/What-are-progressive-web-applications-PWAs
 
 https://open-wc.org/building/rollup-plugin-html.html
+
+https://www.w3.org/TR/appmanifest/
+
+https://findpwa.com/
 
 
 https://lit-element.polymer-project.org/guide/start
 https://github.com/pwa-builder/pwa-starter
+
+Videos:
+https://www.youtube.com/watch?v=srdKq0DckXQ
+https://www.youtube.com/watch?v=MyQ8mtR9WxI
 
 # Install-Event:
 
