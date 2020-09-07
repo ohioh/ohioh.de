@@ -87,5 +87,19 @@ The important question to understand why we have do give this a look is "What is
 ## Kill a ServiceWorker
 
 
+## Dynamic Caching vs Caching Dynamic Content
+This  both methods are not equal.
+Dynamic Caching works by loading  he page, caling the ServiceWorker. This makes a request to Network and send it back to ServiceWorker. Now this new content is  stored in the Cache and is send  to the PAGE. This is a part of a Caching-Strategies.
+
+Caching Dynamic Content
+
+Here the Page requests information from the ServiceWorker. Buit instead of useing the Cacha API, this uses the Indexed( or other DB) Key-Value-Object Database (in  Json). 
+Works similar NetworkThenCache Strategy  concationated  with the DB.
+Data changes frequently  is dynamic and thetypically way to handle this is the JSON-Format.
+
+
+
+
+
 
 
