@@ -91,12 +91,18 @@ The important question to understand why we have do give this a look is "What is
 This  both methods are not equal.
 Dynamic Caching works by loading  he page, caling the ServiceWorker. This makes a request to Network and send it back to ServiceWorker. Now this new content is  stored in the Cache and is send  to the PAGE. This is a part of a Caching-Strategies.
 
-Caching Dynamic Content
+# Caching Dynamic Content
 
 Here the Page requests information from the ServiceWorker. Buit instead of useing the Cacha API, this uses the Indexed( or other DB) Key-Value-Object Database (in  Json). 
 Works similar NetworkThenCache Strategy  concationated  with the DB.
 Data changes frequently  is dynamic and thetypically way to handle this is the JSON-Format.
 
+
+# Background Sync  
+
+What happens if the user has no internet and will  make a new request. MAybe for sending Research Data or getting newst information?
+We biult in a storage for the serviceworker like a "register Sync Task" as json file in DB (at the beginning in indexedDB) that waits for a Internet connection.
+This is a "Sync"-Event in the ServiceWorker in the background of the application.
 
 
 
