@@ -25,6 +25,17 @@ https://blog.bitsrc.io/5-service-worker-caching-strategies-for-your-next-pwa-app
 4.Cache only
 5.Network only
 
+# Service Worker Lifecycle:
+https://dev.to/developertharun/the-service-worker-lifecycle-for-newbies-progressive-web-apps-4b51
+
+index.html ->(loads)-> app.js -> (register)-> ServiceWorker.js->(install)*-> Install Event from the cache. or *->(activated)->Activation Event->(backgrounded)-Y IDLE Mode ->(after time)-> terminated "sleeping" Rewake when Events are coming in
+
+1.load-Event
+2.preinstall-Event
+3.install-Event
+4.activate-Event
+5.fetch-Event
+
 
 
 # Event: Source
@@ -41,10 +52,7 @@ This works on the Service Worker Thread.
 
 
 
-# Service Worker Lifecycle:
-https://dev.to/developertharun/the-service-worker-lifecycle-for-newbies-progressive-web-apps-4b51
 
-index.html ->(loads)-> app.js -> (register)-> ServiceWorker.js->(install)*-> Install Event from the cache. or *->(activated)->Activation Event->(backgrounded)-Y IDLE Mode ->(after time)-> terminated "sleeping" Rewake when Events are coming in
 
 # Background Sync:
 
