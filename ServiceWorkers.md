@@ -20,20 +20,20 @@ The Service Workers make sure that only the needed JS-Files are used which are n
 
 Service Workers are only runing with https:. This means that only secure traffics from secure Hosts are allowed by default.
 
-# Architecture:
+## Architecture:
 https://developer.mozilla.org/de/docs/Web/API/Service_Worker_API/Using_Service_Workers
 
 https://user-images.githubusercontent.com/49223724/92712028-67f57580-f359-11ea-9ac1-15e093099b5b.png
 
-# Strategies for ServiceWorkers:
+## Strategies for ServiceWorkers:
 https://blog.bitsrc.io/5-service-worker-caching-strategies-for-your-next-pwa-app-58539f156f52
-1.Stale-While-Revalidate
-2.Cache first, then Network
-3.Network first, then Cache
-4.Cache only
-5.Network only
+# 1.Stale-While-Revalidate
+# 2.Cache first, then Network
+# 3.Network first, then Cache
+# 4.Cache only
+# 5.Network only
 
-# Service Worker Lifecycle:
+## Service Worker Lifecycle:
 https://dev.to/developertharun/the-service-worker-lifecycle-for-newbies-progressive-web-apps-4b51
 
 index.html ->(loads)-> app.js -> (register)-> ServiceWorker.js->(install)*-> Install Event from the cache. or *->(activated)->Activation Event->(backgrounded)-Y IDLE Mode ->(after time)-> terminated "sleeping" Rewake when Events are coming in
@@ -48,6 +48,7 @@ index.html ->(loads)-> app.js -> (register)-> ServiceWorker.js->(install)*-> Ins
 5.fetch-Event
 6.sync-Event
 7. periodicSync-Event
+( https://developer.mozilla.org/en-US/docs/Web/API/ServiceWorkerRegistration/periodicSync )
 
 (Interface is at the end of the Document)
 
