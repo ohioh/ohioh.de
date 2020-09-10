@@ -47,6 +47,7 @@ index.html ->(loads)-> app.js -> (register)-> ServiceWorker.js->(install)*-> Ins
 4.activate-Event
 5.fetch-Event
 6.sync-Event
+7. periodicSync-Event
 
 (Interface is at the end of the Document)
 
