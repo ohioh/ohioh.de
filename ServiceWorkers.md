@@ -33,6 +33,8 @@ https://dev.to/developertharun/the-service-worker-lifecycle-for-newbies-progress
 
 index.html ->(loads)-> app.js -> (register)-> ServiceWorker.js->(install)*-> Install Event from the cache. or *->(activated)->Activation Event->(backgrounded)-Y IDLE Mode ->(after time)-> terminated "sleeping" Rewake when Events are coming in
 
+0. register
+0.1 download
 1.load-Event
 2.preinstall-Event
 2.1 beforeinstallprompt
@@ -40,6 +42,8 @@ index.html ->(loads)-> app.js -> (register)-> ServiceWorker.js->(install)*-> Ins
 4.activate-Event
 5.fetch-Event
 6.sync-Event
+
+(Interface is at the end of the Document)
 
 
 
@@ -60,4 +64,67 @@ This works on the Service Worker Thread.
 
 
 # Background Sync:
+
+
+
+## Interfaces
+# Cache 
+Represents the storage for Request / Response object pairs that are cached as part of the ServiceWorker life cycle.
+
+# CacheStorage 
+Represents the storage for Cache objects. It provides a master directory of all the named caches that a ServiceWorker can access, and maintains a mapping of string names to corresponding Cache objects.
+
+# Client 
+Represents the scope of a service worker client. A service worker client is either a document in a browser context or a SharedWorker, which is controlled by an active worker.
+
+# Clients 
+Represents a container for a list of Client objects; the main way to access the active service worker clients at the current origin.
+
+# ExtendableEvent 
+Extends the lifetime of the install and activate events dispatched on the ServiceWorkerGlobalScope, as part of the service worker lifecycle. This ensures that any functional events (like FetchEvent) are not dispatched to the ServiceWorker, until it upgrades database schemas, and deletes outdated cache entries, etc.
+
+# ExtendableMessageEvent 
+The event object of a ServiceWorkerGlobalScope/message_event event fired on a service worker (when a channel message is received on the ServiceWorkerGlobalScope from another context) — extends the lifetime of such events.
+
+# FetchEvent 
+The parameter passed into the ServiceWorkerGlobalScope.onfetch handler, FetchEvent represents a fetch action that is dispatched on the ServiceWorkerGlobalScope of a ServiceWorker. It contains information about the request and resulting response, and provides the FetchEvent.respondWith() method, which allows us to provide an arbitrary response back to the controlled page.
+
+# InstallEvent 
+The parameter passed into the oninstall handler, the InstallEvent interface represents an install action that is dispatched on the ServiceWorkerGlobalScope of a ServiceWorker. As a child of ExtendableEvent, it ensures that functional events such as FetchEvent are not dispatched during installation.
+
+# NavigationPreloadManager 
+Provides methods for managing the preloading of resources with a service worker.
+
+# Navigator.serviceWorker
+Returns a ServiceWorkerContainer object, which provides access to registration, removal, upgrade, and communication with the ServiceWorker objects for the associated document.
+
+# NotificationEvent 
+The parameter passed into the onnotificationclick handler, the NotificationEvent interface represents a notification click event that is dispatched on the ServiceWorkerGlobalScope of a ServiceWorker.
+
+# ServiceWorker 
+Represents a service worker. Multiple browsing contexts (e.g. pages, workers, etc.) can be associated with the same ServiceWorker object.
+# ServiceWorkerContainer 
+Provides an object representing the service worker as an overall unit in the network ecosystem, including facilities to register, unregister, and update service workers, and access the state of service workers and their registrations.
+
+# ServiceWorkerGlobalScope
+Represents the global execution context of a service worker.
+
+# ServiceWorkerMessageEvent 
+Represents a message sent to a ServiceWorkerGlobalScope. Note that this interface is deprecated in modern browsers. Service worker messages will now use the MessageEvent interface, for consistency with other web messaging features.
+
+# ServiceWorkerRegistration 
+Represents a service worker registration.
+
+# ServiceWorkerState 
+Associated with its ServiceWorker's state.
+
+# SyncEvent 
+The SyncEvent interface represents a sync action that is dispatched on the ServiceWorkerGlobalScope of a ServiceWorker.
+
+# SyncManager 
+Provides an interface for registering and listing sync registrations.
+
+# WindowClient 
+Represents the scope of a service worker client that is a document in a browser context, controlled by an active worker. This is a special type of Client object, with some additional methods and properties available.
+
 
