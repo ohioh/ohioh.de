@@ -32,6 +32,7 @@ index.html ->(loads)-> app.js -> (register)-> ServiceWorker.js->(install)*-> Ins
 
 1.load-Event
 2.preinstall-Event
+2.1 beforeinstallprompt
 3.install-Event
 4.activate-Event
 5.fetch-Event
