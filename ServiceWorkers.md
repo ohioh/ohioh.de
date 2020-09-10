@@ -20,6 +20,8 @@ Service Workers are only runing with https:. This means that only secure traffic
 # Architecture:
 https://developer.mozilla.org/de/docs/Web/API/Service_Worker_API/Using_Service_Workers
 
+https://user-images.githubusercontent.com/49223724/92712028-67f57580-f359-11ea-9ac1-15e093099b5b.png
+
 # Strategies for ServiceWorkers:
 https://blog.bitsrc.io/5-service-worker-caching-strategies-for-your-next-pwa-app-58539f156f52
 1.Stale-While-Revalidate
