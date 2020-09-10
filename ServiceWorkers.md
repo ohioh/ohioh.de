@@ -17,6 +17,16 @@ The Service Workers make sure that only the needed JS-Files are used which are n
 
 Service Workers are only runing with https:. This means that only secure traffics from secure Hosts are allowed by default.
 
+# Strategies for ServiceWorkers:
+https://blog.bitsrc.io/5-service-worker-caching-strategies-for-your-next-pwa-app-58539f156f52
+1.Stale-While-Revalidate
+2.Cache first, then Network
+3.Network first, then Cache
+4.Cache only
+5.Network only
+
+
+
 # Event: Source
 
 # Fetch-API: 
