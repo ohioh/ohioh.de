@@ -84,6 +84,9 @@ documentation https://github.com/FoxUSA/OpenNote
 https://github.com/hyundotio/magicpad
 https://github.com/NullVoxPopuli/emberclear
 
+# Security:
+https://github.com/mike-works/pwa-fundamentals
+
 # Tor Network:
 https://onionite.now.sh
 https://github.com/lukechilds/onionite
@@ -96,6 +99,9 @@ https://github.com/theanam/pushkit
 
 #Netlify:
 https://app.netlify.com/
+
+# Aweeome:
+https://github.com/PIH/openmrs-pwa-apzu-ic3
 
 # Learning:
 add  Guide for Front-End https://github.com/alienzhou/frontend-tech-list
