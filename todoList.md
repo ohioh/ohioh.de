@@ -25,6 +25,13 @@ share with bt files  https://github.com/RobinLinus/snapdrop
 
 pwa scanner https://webhint.io/scanner/
 
+# Api:
+https://github.com/pwafire/pwafire
+
+
+# Documentation:
+https://github.com/GoogleChromeLabs/rowing-monitor
+
 # PWA  meets Wordpress:
 https://wordpress.org/plugins/pwa/
 https://github.com/GoogleChromeLabs/pwa-wp
@@ -44,6 +51,7 @@ https://github.com/deity-io/falcon
 
 # Rendering:
 https://github.com/hiroppy/ssr-sample
+https://github.com/rherwig/template-react-ssr
 
 # Service Worker Build:
 https://github.com/DockYard/ember-service-worker
@@ -55,6 +63,7 @@ https://github.com/gdg-x/hoverboard
 
 # QR-Code Scanner:
 https://github.com/code-kotis/qr-code-scanner
+https://github.com/moigonzalez/pwa-barcode-scanner
 
 # GPS Speed :
 https://github.com/justinribeiro/speedometer-pwa
@@ -68,6 +77,23 @@ https://github.com/tr1s/tris-webpack-boilerplate
 
 # Features:
 documentation https://github.com/FoxUSA/OpenNote
+
+# Encrypting:
+https://github.com/hyundotio/magicpad
+https://github.com/NullVoxPopuli/emberclear
+
+# Tor Network:
+https://onionite.now.sh
+https://github.com/lukechilds/onionite
+
+# Navigation TOOL
+https://github.com/TheDevPath/Navi
+
+# Notifications:
+https://github.com/theanam/pushkit
+
+#Netlify:
+https://app.netlify.com/
 
 # Learning:
 add  Guide for Front-End https://github.com/alienzhou/frontend-tech-list
