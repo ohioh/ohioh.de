@@ -134,4 +134,7 @@ Provides an interface for registering and listing sync registrations.
 # WindowClient 
 Represents the scope of a service worker client that is a document in a browser context, controlled by an active worker. This is a special type of Client object, with some additional methods and properties available.
 
+# Background Sync:
+https://developers.google.com/web/updates/2015/12/background-sync
+https://ponyfoo.com/articles/backgroundsync
 
