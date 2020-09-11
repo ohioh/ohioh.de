@@ -28,6 +28,8 @@ pwa scanner https://webhint.io/scanner/
 # Api:
 https://github.com/pwafire/pwafire
 
+# Camera:
+https://www.simicart.com/blog/pwa-camera-access/
 
 # Documentation:
 https://github.com/GoogleChromeLabs/rowing-monitor
