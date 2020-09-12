@@ -26,7 +26,7 @@ $ npm install -g serve
 
 $  serve -s build 
 
-//-> Gratulation... you did it. You can visit the build in your locahost shown in the terminal:
+//-> Gratulation... you did it -> a single side pwa. You can visit the build in your locahost shown in the terminal:
 
 
 
