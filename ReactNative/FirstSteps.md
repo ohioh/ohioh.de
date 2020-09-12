@@ -39,6 +39,8 @@ https:localhost:5000
 
 We are using our own precache strategy, so we have to use $ importScript[]  in the generated sw-precache file 
 
+https://github.com/facebook/create-react-app/blob/master/packages/cra-template/template/README.md
+
 
 
 
