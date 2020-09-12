@@ -42,6 +42,11 @@ We are using our own precache strategy, so we have to use $ importScript[]  in t
 https://github.com/facebook/create-react-app/blob/master/packages/cra-template/template/README.md
 
 
+# Set Up  Workbox:
+-> https://developers.google.com/web/tools/workbox/modules/workbox-cli
+
+npm install --save-dev workbox-cli
+
 
 
 
