@@ -22,6 +22,14 @@ $ npm  run build
 
 $ npm install -g serve
 
+//  lets test it:
+
+$  serve -s build 
+
+//-> Gratulation... you did it. You can visit the build in your locahost shown in the terminal:
+
+
+
 
 
 
