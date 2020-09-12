@@ -29,6 +29,19 @@ $  serve -s build
 //-> Gratulation... you did it -> a single side pwa. You can visit the build in your locahost shown in the terminal:
 
 
+https:localhost:5000
+
+
+// Wanna dive in deeper  ? :
+
+-> https://developers.google.com/web/tools/workbox/
+-> https://www.npmjs.com/package/sw-precache-webpack-plugin
+
+We are using our own precache strategy, so we have to use $ importScript[]  in the generated sw-precache file 
+
+
+
+
 
 
 
