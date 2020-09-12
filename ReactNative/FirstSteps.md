@@ -8,4 +8,21 @@ $ npm install -g create-react-app
 // now we can create an app "xyz" is the name that you can give your project:
 $ create-react-app "xyz"
 
+// not use yarn, we use NPM -> we built the base... now lets turn to complete offline pwa:
+( for that we have to make some files avaible because they are hidden by default example: registerServiceWorker.js -> lets change that.This eject process in  not returnable)
+
+$ npm  run eject
+
+// Now check your folder and you see a lot more folders an files
+// lets bring it PWA now:
+
+$ npm  run build
+
+// look to it in the browser as a  simulation (testing-purpose) #notToDeploy:
+
+$ npm install -g serve
+
+
+
+
 
