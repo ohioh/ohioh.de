@@ -38,17 +38,6 @@ https://dev.to/developertharun/the-service-worker-lifecycle-for-newbies-progress
 
 index.html ->(loads)-> app.js -> (register)-> ServiceWorker.js->(install)*-> Install Event from the cache. or *->(activated)->Activation Event->(backgrounded)-Y IDLE Mode ->(after time)-> terminated "sleeping" Rewake when Events are coming in
 
-0. register
-0.1 download
-1.load-Event
-2.preinstall-Event
-2.1 beforeinstallprompt
-3.install-Event
-4.activate-Event
-5.fetch-Event
-6.sync-Event
-7. periodicSync-Event
-( https://developer.mozilla.org/en-US/docs/Web/API/ServiceWorkerRegistration/periodicSync )
 
 (Interface is at the end of the Document)
 
