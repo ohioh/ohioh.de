@@ -6,6 +6,7 @@ In the coding language we talkinbg about lifecyle of ServiceWorkers.
 
 ## Table of Contents:
 -- Service Worker Lifecycle
+(-- Event:  Waiting )
 -- Event: Register
 -- Event: Download
 -- Event: Load
@@ -13,6 +14,7 @@ In the coding language we talkinbg about lifecyle of ServiceWorkers.
 -- Event: beforeinstallpropmt
 -- Event: Install
 -- Event: Activate
+-- Event: Update (only for SPA)
 -- Event: Fetch
 -- Event: Sync
 -- Event: PeriodicSync
@@ -40,11 +42,17 @@ created by Tjark Ziehm;
 MIT
 ------------------------------------------------------------------------------------------------------------
 ## -- Service Worker Lifecycle
+## (-- Event:  Waiting )
+Waiting is possible when two serviceworkers are avaible after installation.
+As  an example  SW_B and SW_A. A is still active and the SW_b is isntalled but not in usage yet. So it is waiting.
+This can be skipped by skipWaiting();
+
 ## -- Event: Register
 ## -- Event: Download
 ## -- Event: Load
 ## -- Event: Preisntall
 ## -- Event: beforeinstallpropmt
+
 ## -- Event: Install
 addEventListener('install' ...);
 Here the listener fires the event object that install  the local environment and gives the servicework after the install is done a place  to stay.
@@ -56,6 +64,17 @@ The Activation  is the different between Browser experiance and the APP. This sw
 
 [Coders] ofcourse you can handle this with versioning of the file like $ var sw-version = "0.1";
 or later with workbox.
+The newest ServiceWorker will loaded when  it was installed and in waiting mode.
+
+forcing the activation
+skipWaiting()
+
+## -- Event: Update (only for SPA)
+this force an update for the serviceworker.
+[Coder]  
+function requestUpdate(){
+regObj.update();
+}
 
 ## -- Event: Fetch
 addEventListener('fetch' .... );
