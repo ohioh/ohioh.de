@@ -31,8 +31,13 @@ Events are the nice way since ES6 to set up individual stragies for your need to
 
 
 ## Contributing:
+Satyam
+
 ## Credits & Links:
+created by Tjark Ziehm; 
+
 ## License: 
+MIT
 ------------------------------------------------------------------------------------------------------------
 ## -- Service Worker Lifecycle
 ## -- Event: Register
@@ -41,9 +46,27 @@ Events are the nice way since ES6 to set up individual stragies for your need to
 ## -- Event: Preisntall
 ## -- Event: beforeinstallpropmt
 ## -- Event: Install
+addEventListener('install' ...);
+Here the listener fires the event object that install  the local environment and gives the servicework after the install is done a place  to stay.
+
+
 ## -- Event: Activate
+Activate  is a powerfull tool to clean up and activate the previos serviceworker Version.
+The Activation  is the different between Browser experiance and the APP. This switch  browser usage to APP activate.
+
+[Coders] ofcourse you can handle this with versioning of the file like $ var sw-version = "0.1";
+or later with workbox.
+
 ## -- Event: Fetch
+addEventListener('fetch' .... );
+This the Fetch Event Listener will return a event objekt. Here the decission between taking data from Networt or cache is done.
+This Event will fire for each request the User is doing.
+Now the following code will grab it.
+event.resondWith(fetch(event.request));
+This request or Event will take the data from the browser.
+
 ## -- Event: Sync
+
 ## -- Event: PeriodicSync
 
 ( https://developer.mozilla.org/en-US/docs/Web/API/ServiceWorkerRegistration/periodicSync )
