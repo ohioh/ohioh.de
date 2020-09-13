@@ -11,3 +11,7 @@
 
 # https://www.npmjs.com/package/firebase-tools
 (https://medium.com/dev-channel/learn-how-to-build-a-pwa-in-under-5-minutes-c860ad406ed)
+
+# nodemom node ( will come in future )
+https://www.npmjs.com/package/nodemon
+https://nodemon.io/
