@@ -7,6 +7,7 @@ In the coding language we talkinbg about lifecyle of ServiceWorkers.
 ## Table of Contents:
 -- Service Worker Lifecycle
 (-- Event:  Waiting )
+--  Event: waitUntil
 -- Event: Register
 -- Event: Download
 -- Event: Load
@@ -42,10 +43,17 @@ created by Tjark Ziehm;
 MIT
 ------------------------------------------------------------------------------------------------------------
 ## -- Service Worker Lifecycle
+
 ## (-- Event:  Waiting )
 Waiting is possible when two serviceworkers are avaible after installation.
 As  an example  SW_B and SW_A. A is still active and the SW_b is isntalled but not in usage yet. So it is waiting.
 This can be skipped by skipWaiting();
+
+## --  Event: waitUntil ( method )
+A multiusage  Event for specific  tasks like cache creating or calling specific parts from the key of an object
+
+## -- Event: .respongWith (method)
+Takes the event to use is in a async way.
 
 ## -- Event: Register
 ## -- Event: Download
