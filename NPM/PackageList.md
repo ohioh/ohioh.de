@@ -19,9 +19,10 @@ https://nodemon.io/
 ##### CORS 
 https://www.npmjs.com/package/cors
 
-#####
+##### SweetAlert ( will come in future )
 
-#####
+##### browserify ( will come in future )
+http://browserify.org/#install
 
 #####
 
