@@ -17,5 +17,15 @@ Credits: Include a section for credits in order to highlight and link to the aut
 
 License: Finally, include a section for the license of your project. For more information on choosing a license, check out GitHub’s licensing guide!
 
+Template:
+
+# Project name:
+## Description:
+## Table of Contents:
+## Installation & prepair:
+## Usage:
+## Contributing:
+## Credits & Links:
+## License: 
 
 # Schema to Informations.md
