@@ -27,6 +27,7 @@ http://browserify.org/#install
 ##### lighthouse
 npm install -g lighthouse
 https://www.npmjs.com/package/lighthouse
+https://github.com/GoogleChrome/lighthouse
 
 #####
 
