@@ -8,3 +8,13 @@ https://www.npmjs.com/package/web-push
 
 
 https://developers.google.com/web/fundamentals/push-notifications
+
+
+
+
+Notification object;
+
+onclick 
+onclose
+onerror 
+onshow 
