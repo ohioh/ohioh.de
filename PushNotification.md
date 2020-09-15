@@ -8,3 +8,5 @@ https://www.npmjs.com/package/web-push
 
 
 https://developers.google.com/web/fundamentals/push-notifications
+
+https://developer.mozilla.org/en-US/docs/Web/API/notification/Notification
