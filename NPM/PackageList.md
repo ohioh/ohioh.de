@@ -24,7 +24,9 @@ https://www.npmjs.com/package/cors
 ##### browserify ( will come in future )
 http://browserify.org/#install
 
-#####
+##### lighthouse
+npm install -g lighthouse
+https://www.npmjs.com/package/lighthouse
 
 #####
 
