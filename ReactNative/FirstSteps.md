@@ -1,4 +1,7 @@
 ## Creating a Basic React-APP for PWA:
+
+we will use this https://www.npmjs.com/package/create-react-native-app
+(pls read this first) 
 ($ = Sign to  show that we work in terminal)
 
 
