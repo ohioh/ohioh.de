@@ -35,19 +35,35 @@ The OhIOH APP, allows participating devices to log encounters with each other, i
 
 ## Table of Contents:
 
-* ###  Welcome to Ohioh Repository.
-### * Bluetooth
-####  Bluetooth protocol
-### * GAEN
-### * Web Bluetooth
-### * Push notification
-### * Service Worker
-### *
+* ### Welcome to Ohioh Repository.
+* ### Open Source
+* ### Bluetooth
+ * #### Bluetooth protocol
+* ### GAEN
+* ### Web Bluetooth
+* ### Indoor positioning System
+* ### Push notification
+* ### Progressive Web APP
+ * #### Service Worker
+  * ##### Architecture
+* ### Taging and parsing
+* ### Calibration
+* ### Git Info
+* ### How to build APK
+* ### User Interface with CSS
+* 
+* ### Installation & preparation:
+* ### Usage:
+* ### Contributing:
+* ### Credits & Links:
+ * #### Partners
+* ### License: 
 
-## Installation & prepair:
+## Installation & preparation:
 ## Usage:
 ## Contributing:
 ## Credits & Links:
+ ### Partners
 ## License: 
 
 # Schema to Informations.md
