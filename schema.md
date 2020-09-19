@@ -19,9 +19,27 @@ License: Finally, include a section for the license of your project. For more in
 
 Template:
 
-# Project name:
+# Project name: Ohioh.de
+
 ## Description:
+OHIOH APP is an open source implementation in the OHIOH Framework.
+
+OHIOH App is a part of the OHIOH Products, which uses privacy-preserving protocol for community-driven contact tracing across borders, with the opportunity to select geolocation tracing, like GPS.
+
+Its aim is to flatten the curve of pandemics and potentially detect them before they spread widely. To effectively contain the spread of a virus health officials use the approach of test, trace and quarantine.
+
+When an individual is determined to be infected , the official’s task is to determine who might have been in close enough proximity to this person, to be infected. Testing/ quarantining those individuals quickly is one of the effective strategies to curb the spread of infection further. However, such a method, without information is ineffective as well as inefficient.
+
+The OhIOH APP, allows participating devices to log encounters with each other, in order to facilitate epidemiological contact tracing, while protecting the user's personal data and privacy.
+
+
 ## Table of Contents:
+.1. Welcome to Ohioh Repository
+.2.Bluetooth
+..2.1.Bluetooth protocol
+.3.GAEN
+
+
 ## Installation & prepair:
 ## Usage:
 ## Contributing:
