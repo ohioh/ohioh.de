@@ -19,7 +19,7 @@ License: Finally, include a section for the license of your project. For more in
 
 Template:
 
-# Project name: Ohioh.de
+# Ohioh.de
 
 ## Description:
 OHIOH APP is an open source implementation in the OHIOH Framework.
@@ -34,10 +34,10 @@ The OhIOH APP, allows participating devices to log encounters with each other, i
 
 
 ## Table of Contents:
-.1. Welcome to Ohioh Repository
-.2.Bluetooth
-..2.1.Bluetooth protocol
-.3.GAEN
+. 1. Welcome to Ohioh Repository
+. 2.Bluetooth
+.. 2.1.Bluetooth protocol
+. 3.GAEN
 
 
 ## Installation & prepair:
