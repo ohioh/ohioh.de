@@ -35,7 +35,7 @@ The OhIOH APP, allows participating devices to log encounters with each other, i
 
 ## Table of Contents:
 
-### * Welcome to Ohioh Repository.
+* ###  Welcome to Ohioh Repository.
 ### * Bluetooth
 ####  Bluetooth protocol
 ### * GAEN
