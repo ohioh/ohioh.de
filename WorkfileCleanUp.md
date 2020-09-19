@@ -7,6 +7,7 @@ Logical structur:
 Then  next structur of the index as a logical  sort (Order):
 From Easy to Hard  and  like in a book sorted in  chapters  ? [or what you  think about,Satyam?]
 Mainpage content down  (  not   finsih but this should be with  the index at the mainpage,or? )
+You wanna start with the sort and at  the end with the Main Wikipage?
 
 Mainpage( ReadMe.md )
 
