@@ -266,7 +266,7 @@ https://developers.google.com/android/exposure-notifications/files/en-calibratio
 
 ## Git Info
 
-test We are working with folks from the PathCheck Repository. It can happen that we work in different ways with the Project. To bring the split to a minimum we try to merge the original pathcheck repository to a seperated Account. There we can manual compare the differences and try to run the origin from PathCheck concatinated with our actual data from the Device ( which should ofcourse been up to date). if everything is running we can merge the TransferAccount with our ohioh account.
+We are working with folks from the PathCheck Repository. It can happen that we work in different ways with the Project. To bring the split to a minimum we try to merge the original pathcheck repository to a seperated Account. There we can manual compare the differences and try to run the origin from PathCheck concatinated with our actual data from the Device ( which should ofcourse been up to date). if everything is running we can merge the TransferAccount with our ohioh account.
 
 we use the develop as our regular "master" the masterfile is the last published version and shouldnt be touched ( only safed )
 
