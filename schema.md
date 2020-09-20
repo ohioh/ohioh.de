@@ -154,7 +154,7 @@ This new way to use Bluetooth can open a complete new way of interacting with Bl
 
 Energy:
 
-This is an often discussed them in the world of tracing. For us as researcher who are deeply interested in the userview that discussion is the same important. We only make research that is usable in normal life and not in a labor. In Bluetooth Low Energy devices can perform one of two roles.As a “Central” (your phone) or a “Peripheral” (a above called hardware, headset other device).
+This is an often discussed in the world of tracing. For us as researcher who are deeply interested in the userview that discussion is the same important. We only make research that is usable in normal life and not in a labor. In Bluetooth Low Energy devices can perform one of two roles.As a “Central” (your phone) or a “Peripheral” (a above called hardware, headset other device).
 
 The Bluetoothdevice by itself:
 
@@ -202,11 +202,119 @@ Reliable: PWAs remain usable regardless of the quality of the network connection
 
 Installable: PWAs run in a stand-alone window rather than a browser tab and can therefore be launched like native applications. You can set PWAs as default settings, just like native applications.
 
-## Service Worker
-   ### Architecture
+ ### Service Worker
+ 
+ Definition from Mozilla:
+"A service worker is an event-driven worker registered against an origin and a path. It takes the form of a JavaScript file that can control the web-page/site that it is associated with, intercepting and modifying navigation and resource requests, and caching resources in a very granular fashion to give you complete control over how your app behaves in certain situations (the most obvious one being when the network is not available).
+
+A service worker is run in a worker context: it therefore has no DOM access, and runs on a different thread to the main JavaScript that powers your app, so it is non-blocking. It is designed to be fully async; as a consequence, APIs such as synchronous XHR and Web Storage can't be used inside a service worker.
+
+Service workers only run over HTTPS, for security reasons. Having modified network requests, wide open to man in the middle attacks would be really bad. In Firefox, Service Worker APIs are also hidden and cannot be used when the user is in private browsing mode."
+
+avaible for following browsers:
+
+https:jakearchibald.github.io/isserviceworkerready/
+
+ServiceWorker API:
+https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API
+
+"Multi-Thread" ( or two single Thread) usage, this is an awesome feature that pwa support.Your basics like the DOM are running on a single thread. In normal everything you add in Js will added as workload to this thread. The ServiceWorker has a decoupled thread for usage. This push up the usability and performance on a nice way. This seperated Thread will still alaive if the browser is closed. Like a background Service that only need needs the visaul performance of the device whenn the user want to see the content of the application.Or in short "stay tuned and same time safe energy". The Service Workers make sure that only the needed JS-Files are used which are needed for the advantage of the users.
+
+Service Workers are only runing with https:. This means that only secure traffics from secure Hosts are allowed by default.
+
+   #### Architecture
+   
+   ##### OHIOH-Strategy
+We use an combination to make sure of less Network-Traffic and maximal easy User-Experiance. 1. 2. 3.
+
+
+   ##### Strategy: Cache with Network FallbackPage
+If the ServiceWorker has to load something that is not yet avaible in the Cache [ because it wasn't loaded yet as an example] the serviceWorker will ask for Networkconnection. When this is not avaible it will redirect to the fallbackPage.html to inform the User about.
+
+
+   ##### Strategy: Cache only
+This strategy helps in situation, where a relink or data change would brake the information by it self. MAyby when loading something from the database. Then it is important to only use cache when Nétwork is not avaible. On this way the dataquality is secured.
+
+
+   ##### Strategy: Network Only
+This is the opposite to Cache only. This is how Homepage etc are working
+
+
+   ##### Strategy: Network with Cache Fallback
+This strategy request a page from the ServiceWorker in a situation where the Network is not avaible. Then the serviceWorker will request this data from Cache. This is a very helpful strategy.
+
+
+   ##### Strategy: Cache, then Network
+This is a really useful strategy in alot of cases. The idea is to get the content as fast and traffic saving as possible. If and update is avaible on the avaible network this will update the content. 1.The page will directly request the cache and getting the content 2.At the same time the page request the ServiceWorker that request the network for new content for the page and the cache.If new contant is avaible the serviceWorker pushit to the page too. The user has the best experinace on this way Important for Coders:This process is in the requested *.js file and the serviceWorker
+
+Version: Cache then Network (all data to dynamic Caching again) Strategy:
+Version: Cache then Network (all data to dynamic Caching after compare) Strategy:
+
+
+   ##### Implimentation way for seperated files Step-byStep:
+The important question to understand why we have do give this a look is "What is loaded first...the serviceworker or the wihed *.js file from the index.html?"
+
+
+   ##### Kill a Servic eWorker
+
+   ##### Dynamic Caching vs Caching Dynamic Content
+This both methods are not equal. Dynamic Caching works by loading he page, caling the ServiceWorker. This makes a request to Network and send it back to ServiceWorker. Now this new content is stored in the Cache and is send to the PAGE. This is a part of a Caching-Strategies.
+
+
+   ##### Caching Dynamic Content
+Here the Page requests information from the ServiceWorker. Buit instead of useing the Cacha API, this uses the Indexed( or other DB) Key-Value-Object Database (in Json). Works similar NetworkThenCache Strategy concationated with the DB. Data changes frequently is dynamic and thetypically way to handle this is the JSON-Format.
+
+
+   ##### Background Sync
+What happens if the user has no internet and will make a new request. MAybe for sending Research Data or getting newst information? We biult in a storage for the serviceworker like a "register Sync Task" as json file in DB (at the beginning in indexedDB) that waits for a Internet connection. This is a "Sync"-Event in the ServiceWorker in the background of the application.
+
 ## Taging and parsing
+
+Taging is a way in JavaScript and HTML to point to a specific code part.
+
+https://www.w3schools.com/html/html_scripts.asp
+
+Parsing:
+
+https://tomassetti.me/parsing-in-javascript/
+
 ## Calibration
+
+Calibtaion for devices:
+
+https://developers.google.com/android/exposure-notifications/files/en-calibration-2020-08-12.csv
+
 ## Git Info
+
+test We are working with folks from the PathCheck Repository. It can happen that we work in different ways with the Project. To bring the split to a minimum we try to merge the original pathcheck repository to a seperated Account. There we can manual compare the differences and try to run the origin from PathCheck concatinated with our actual data from the Device ( which should ofcourse been up to date). if everything is running we can merge the TransferAccount with our ohioh account.
+
+we use the develop as our regular "master" the masterfile is the last published version and shouldnt be touched ( only safed )
+
+We recognize that it can be helpful using next to your terminal the software 1.Gitkraken for the ohioh account 2.Github Desktop to your privat account
+
+
+
+   ### How to use:
+use your terminal to handle your work
+
+
+   ### Definitions:
+https://backlog.com/git-tutorial/branching/merge/ Good to know: remote repository - this is the repository hosted by github on the server initial repository - your folder with the data
+
+pull - (down) pull the latest change from the remote repository to our local repository fetch - (down) push - (up) to the repository that you point example: $ git push -u origin master ( or in our case develop) Before you start check out how git works. If you know where you git head is at the moment you are ready to rock.
+
+
+   ### Daily Update with repo from OHIOH:
+https://docs.github.com/en/desktop/contributing-and-collaborating-using-github-desktop/managing-branches creating your daily branch at the beginning of the work Define the each Microprojet in the file as you can read in the secation to "MicroProject"
+
+
+   ### Regular Update with repo from pathcheck:
+https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/syncing-a-fork use ForkSyncInTestBranch.md
+
+
+   ### MicroProject:
+Define in by ProjectContent and Version: Actual Version github branch.
+
 ## How to build APK
 ## User Interface with CSS
 
