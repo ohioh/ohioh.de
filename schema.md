@@ -21,7 +21,6 @@ Template:
 
 # Ohioh.de
 
-## Description:
 OHIOH APP is an open source implementation in the OHIOH Framework.
 
 OHIOH App is a part of the OHIOH Products, which uses privacy-preserving protocol for community-driven contact tracing across borders, with the opportunity to select geolocation tracing, like GPS.
@@ -56,7 +55,25 @@ The OhIOH APP, allows participating devices to log encounters with each other, i
 * ### Contributing:
 * ### Credits & Links:
    #### Partners
-* ### License: 
+* ### License
+
+## Welcome to Ohioh Repository.
+## Open Source
+## Bluetooth
+## Bluetooth protocol
+## GAEN
+## Web Bluetooth
+## Indoor positioning System
+## Push notification
+## Progressive Web APP
+## Service Worker
+   ### Architecture
+## Taging and parsing
+## Calibration
+## Git Info
+## How to build APK
+## User Interface with CSS
+
 
 ## Installation & preparation:
 ## Usage:
