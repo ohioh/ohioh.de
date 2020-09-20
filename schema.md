@@ -15,6 +15,37 @@ The OhIOH APP, allows participating devices to log encounters with each other, i
 ## Table of Contents:
 
 * ### Welcome to Ohioh Repository.
+* ### Git Info (introduction to github)
+* ### Progressive Web APP
+   #### Service Worker
+   ##### Architecture
+   * ### Bluetooth
+     #### Bluetooth protocol
+   * ### Web Bluetooth
+   * ### Sensor:
+   Indoor:
+   * ### Indoor positioning System
+   Outdoor:
+   
+   ------------------
+* ### Open Source
+
+* ### Installation & preparation:
+
+### coding:
+* ### Installation & preparation:
+* ### Usage:
+* ### Taging and parsing
+* ### Calibration
+
+
+* ### Contributing:
+* ### Credits & Links:
+   #### Partners
+* ### License
+
+
+
 * ### Open Source
 * ### Bluetooth
    #### Bluetooth protocol
@@ -266,7 +297,7 @@ https://developers.google.com/android/exposure-notifications/files/en-calibratio
 
 ## Git Info
 
-We are working with folks from the PathCheck Repository. It can happen that we work in different ways with the Project. To bring the split to a minimum we try to merge the original pathcheck repository to a seperated Account. There we can manual compare the differences and try to run the origin from PathCheck concatinated with our actual data from the Device ( which should ofcourse been up to date). if everything is running we can merge the TransferAccount with our ohioh account.
+test We are working with folks from the PathCheck Repository. It can happen that we work in different ways with the Project. To bring the split to a minimum we try to merge the original pathcheck repository to a seperated Account. There we can manual compare the differences and try to run the origin from PathCheck concatinated with our actual data from the Device ( which should ofcourse been up to date). if everything is running we can merge the TransferAccount with our ohioh account.
 
 we use the develop as our regular "master" the masterfile is the last published version and shouldnt be touched ( only safed )
 
