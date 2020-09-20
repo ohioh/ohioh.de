@@ -14,7 +14,7 @@ The OhIOH APP, allows participating devices to log encounters with each other, i
 
 ## Table of Contents:
 
-* ### Welcome to Ohioh Repository.
+* ### Welcome to Ohioh Repository. (main Readme.md)
 * ### Git Info (introduction to github)
 * ### Progressive Web APP
    #### Service Worker
