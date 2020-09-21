@@ -33,3 +33,8 @@ All of these functions will be called with await whenever a cache or fetch event
 A plugin using all of these callbacks would look like this..."
 
 from https://developers.google.com/web/tools/workbox/guides/using-plugins
+
+
+
+https://developers.google.com/web/tools/workbox/guides/common-recipes
+https://developers.google.com/web/tools/workbox/guides/storage-quota
