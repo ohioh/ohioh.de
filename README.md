@@ -49,6 +49,8 @@ In one way this is more risky at our beginning but we hope to give you the newst
 
 We are a collective of voluntary helpers and student from all over the world. Togehter we work at the OHIOH ("Our Helath In Our Hands") Workgroup to explore newst technologies, Protocols (like GAEN or TCN) and User-Behavior to publish public Documents. On this way we want to help to fight corona and non-pandemics like flue. Educational work is nessesary to give the users of tracing App and influenced person a fair chance to decide the own privat way to use APPs. For further information we publish technologies which helps public Authorities like school, universities or Town halls to define there individual risk places and develop fact oriented instructions for action and the restart after covid-19.
 
+Modualar built wih webpack  to get an easy interoperability.
+
 # Project Summary:
 
 In the last month we worked on differnet project of development to fight covid-19. The colobaration to the university of applied sciences of Kiel and the PatchCheckfoundation ( https://pathcheck.org ) helped us to create a research field and envirnment for Data acquisition. The Pathcheck Foundation build with us an App that works in this closed research field of the university.
