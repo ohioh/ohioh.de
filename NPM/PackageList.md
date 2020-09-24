@@ -27,9 +27,11 @@ http://browserify.org/#install
 ##### lighthouse
 npm install -g lighthouse
 https://www.npmjs.com/package/lighthouse
+https://github.com/GoogleChrome/lighthouse
 
-#####
+#####  
+npm install es-module-loader --save-dev
 
-#####
+##### @babel/polyfill 
 
-#####
+##### https://github.com/d3  (soon)
