@@ -1,3 +1,7 @@
+#Install
+first instll  $ npm install workbox-cli --save-dev  in the projectfolder.
+
+
 # Workbox Packages:
 
 # Workbox Classes:

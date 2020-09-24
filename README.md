@@ -1,5 +1,22 @@
 ## Welcome to the OHIOH Repository!
 
+
+
+
+## Roadmap
+
+* [x] Basic Java/Swift <-> go-ipfs bindings
+* [x] Packages built and published using CI
+* [x] Unit tests using Android/iOS testing frameworks
+* [x] Bind node config setters and getters
+* [ ] InputStream as request body and request response (in progress)
+* [ ] React-Native module (in progress)
+* [ ] `SetStreamHandler(protocolID, handler)` and
+`NewStream(peerID, protocolID)` bindings
+* [ ] Android/iOS lifecycle management
+* [ ] Improve this README
+
+
 To get more information about the project and the university of applied sciences of Kiel stay tuned on following links:
 
 https://ohioh.de
@@ -48,6 +65,8 @@ In one way this is more risky at our beginning but we hope to give you the newst
 [glimpse: field research, App-development, public health, risk scoring]
 
 We are a collective of voluntary helpers and student from all over the world. Togehter we work at the OHIOH ("Our Helath In Our Hands") Workgroup to explore newst technologies, Protocols (like GAEN or TCN) and User-Behavior to publish public Documents. On this way we want to help to fight corona and non-pandemics like flue. Educational work is nessesary to give the users of tracing App and influenced person a fair chance to decide the own privat way to use APPs. For further information we publish technologies which helps public Authorities like school, universities or Town halls to define there individual risk places and develop fact oriented instructions for action and the restart after covid-19.
+
+Modualar built wih webpack  to get an easy interoperability.
 
 # Project Summary:
 
