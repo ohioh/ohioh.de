@@ -1,5 +1,22 @@
 ## Welcome to the OHIOH Repository!
 
+
+
+
+## Roadmap
+
+* [x] Basic Java/Swift <-> go-ipfs bindings
+* [x] Packages built and published using CI
+* [x] Unit tests using Android/iOS testing frameworks
+* [x] Bind node config setters and getters
+* [ ] InputStream as request body and request response (in progress)
+* [ ] React-Native module (in progress)
+* [ ] `SetStreamHandler(protocolID, handler)` and
+`NewStream(peerID, protocolID)` bindings
+* [ ] Android/iOS lifecycle management
+* [ ] Improve this README
+
+
 To get more information about the project and the university of applied sciences of Kiel stay tuned on following links:
 
 https://ohioh.de
