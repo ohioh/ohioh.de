@@ -1,1 +1,0 @@
-https://qrsnapper.com/
