@@ -12,62 +12,7 @@ When an individual is determined to be infected , the official’s task is to de
 The OhIOH APP, allows participating devices to log encounters with each other, in order to facilitate epidemiological contact tracing, while protecting the user's personal data and privacy.
 
 
-## Table of Contents:
 
-* ### Welcome to Ohioh Repository. (main Readme.md)
-### Introduction of WIKI
-* ### Git Info (introduction to github)
-* ### Progressive Web APP
-   #### Service Worker
-   ##### Architecture
-   * ### Bluetooth
-     #### Bluetooth protocol
-   * ### Web Bluetooth
-   * ### Sensor:
-   Indoor:
-   * ### Indoor positioning System
-   Outdoor:
-   
-   ------------------
-* ### Open Source
-
-* ### Installation & preparation:
-
-### coding:
-* ### Installation & preparation:
-* ### Usage:
-* ### Taging and parsing
-* ### Calibration
-
-
-* ### Contributing:
-* ### Credits & Links:
-   #### Partners
-* ### License
-
-
-
-* ### Open Source
-* ### Bluetooth
-   #### Bluetooth protocol
-* ### GAEN
-* ### Web Bluetooth
-* ### Indoor positioning System
-* ### Push notification
-* ### Progressive Web APP
-   #### Service Worker
-    ##### Architecture
-* ### Taging and parsing
-* ### Calibration
-* ### Git Info
-* ### How to build APK
-* ### User Interface with CSS
-* ### Installation & preparation:
-* ### Usage:
-* ### Contributing:
-* ### Credits & Links:
-   #### Partners
-* ### License
 
 ## Welcome to Ohioh Repository
 
