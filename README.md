@@ -3,6 +3,10 @@
 
 
 
+
+
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/race
+
 ## Roadmap
 
 * [x] Basic Java/Swift <-> go-ipfs bindings
