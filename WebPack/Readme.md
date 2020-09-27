@@ -19,3 +19,6 @@ Loaders are activated by using loadername! prefixes in require() statements, or 
 
 
 https://github.com/webpack-contrib/html-loader
+
+
+https://survivejs.com/webpack/developing/getting-started/
