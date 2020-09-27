@@ -4,6 +4,10 @@
 All you  need:https://codelabs.developers.google.com/codelabs/pwa-welcome/#1
 
 
+
+
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/race
+
 ## Roadmap
 
 * [x] Basic Java/Swift <-> go-ipfs bindings
