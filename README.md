@@ -1,3 +1,5 @@
+
+https://github.com/Polidea/react-native-ble-plx
 https://www.npmjs.com/package/node-web-bluetooth
 
 https://www.npmjs.com/package/build-ble
