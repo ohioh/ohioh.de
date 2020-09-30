@@ -1,3 +1,12 @@
+https://www.npmjs.com/package/node-web-bluetooth
+
+https://www.npmjs.com/package/build-ble
+
+https://www.npmjs.com/package/react-native-ble-plx
+
+https://github.com/IjzerenHein/node-web-bluetooth#readme
+https://github.com/noble/noble
+
 ## Welcome to the OHIOH Repository!
 
 https://docs.netlify.com/accounts-and-billing/billing/?_ga=2.150852022.1492366874.1601402029-1650455921.1601402029#builds-usage
