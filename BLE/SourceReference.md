@@ -11,6 +11,7 @@ https://github.com/zhcfcl/BluetoothScanner-Android/tree/master/app/src/main/java
 https://github.com/akexorcist/BluetoothSPPLibrary
 https://github.com/bluekitchen/btstack
 https://github.com/JasperHsieh/Bluetooth_Profiles_Scanner
+https://github.com/Shrreya/BLE-Visual
 
 # Packages
 
@@ -30,9 +31,18 @@ https://jaxenter.de/bluetooth-le-51182
 (old)https://developers.google.com/web/updates/2015/07/interact-with-ble-devices-on-the-web
 https://www.hackster.io/justind000/iot-hydroponics-measure-ec-with-web-bluetooth-5494d1
 https://www.hackster.io/patricia2/offline-pwa-with-bluetooth-le-capabilities-77cbba
+https://berty.tech/
+more wifi:
+https://github.com/schollz/find-lf
+https://github.com/cyberman54/ESP32-Paxcounter
+https://github.com/Ye11ow-Flash/Wifi-Analyzer
 
-
-
+(p2p)protocol:
+recognize via BLE and coommunication about p2p is securest way:
+https://github.com/thenativeweb/p2p
+https://github.com/blenderskool/blaze
+https://github.com/dbushell
+https://dbushell.com/
 
 
 
