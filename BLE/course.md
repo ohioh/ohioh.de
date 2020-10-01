@@ -1,5 +1,6 @@
 links:
 
+GAP-  Generic Access Profile
 
 
 AFH: Adaptive Frequeny Hopping
