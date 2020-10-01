@@ -1,9 +1,14 @@
 links:
-
+Range: 2402-2480 MHZ
+Broadcast<->Observer ;  Peripheral <-> Central (Periodic advertising  mode)
 GAP-  Generic Access Profile
-
-
 AFH: Adaptive Frequeny Hopping
+intervalls: 20ms  - 10.24s 
+
+Advertising Data:
+DeviceName;Transmit Power;ServiceUUID ....
+
+Channels:
 
 Some of the notable differences include:
 - Bluetooth Classic: used for streaming applications such as audio streaming and file transfers.
