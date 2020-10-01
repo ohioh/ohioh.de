@@ -1,11 +1,3 @@
-https://www.npmjs.com/package/node-web-bluetooth
-
-https://www.npmjs.com/package/build-ble
-
-https://www.npmjs.com/package/react-native-ble-plx
-
-https://github.com/IjzerenHein/node-web-bluetooth#readme
-https://github.com/noble/noble
 
 ## Welcome to the OHIOH Repository!
 
