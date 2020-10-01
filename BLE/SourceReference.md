@@ -2,6 +2,7 @@
 ## Introduction:
 ## Links&Videos:
 # youtube:
+https://www.bluetooth.com/bluetooth-resources/?types=video&categories=training-videos
 youtube:
 https://www.youtube.com/watch?v=eZGixQzBo7Y&list=PLYj4Cw17Aw7ypuXt7mDFWAyy6P661TD48&__s=rsz9hskcunkd0y1xkzpm&utm_source=drip&utm_medium=email&utm_campaign=BLE+Email+Course&utm_content=%5B1+of+7%5D+What+is+Bluetooth+Low+Energy%3F+...plus+two+free+PDF+downloads
 
