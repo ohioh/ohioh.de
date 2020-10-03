@@ -14,3 +14,7 @@
 #5 Evil Minion – affordable and open source robotic arm for 
      teachers, makers, and manufacturers
      https://www.marginallyclever.com 
+     
+     
+     
+     https://faze4-robotic-arm-docs.readthedocs.io/en/latest/About_faze4.html
