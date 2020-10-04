@@ -1,3 +1,11 @@
+<p><a href="https://creativecommons.org/licenses/by-sa/4.0/" title="CC BY-SA 4.0"><img src="https://licensebuttons.net/l/by-sa/4.0/88x31.png" alt="Creative Commons License"></a>
+<a href="https://www.owasp.org/index.php/Category:OWASP_Project#tab=Project_Inventory"><img src="https://img.shields.io/badge/owasp-flagship%20project-48A646.svg" alt="OWASP Flagship"></a>
+<img src="https://img.shields.io/github/stars/OWASP/owasp-mstg?label=Stars%20MSTG&amp;style=social" alt="Github stars MSTG">
+<img src="https://img.shields.io/github/stars/OWASP/owasp-masvs?label=Stars%20MASVS&amp;style=social" alt="Github stars MASVS">
+<a href="https://twitter.com/OWASP_MSTG"><img src="https://img.shields.io/twitter/follow/OWASP_MSTG.svg?style=social&amp;label=Follow" alt="Twitter Follow"></a>
+<a href="https://github.com/OWASP/owasp-mstg/releases"><img src="https://img.shields.io/github/v/release/OWASP/owasp-mstg?label=MSTG%20release%20version" alt="MSTG release"></a>
+<a href="https://github.com/OWASP/owasp-masvs/releases"><img src="https://img.shields.io/github/v/release/OWASP/owasp-masvs?label=MASVS%20release%20version" alt="MASVS release"></a></p>
+
 
 ## Welcome to the OHIOH Repository!
 
