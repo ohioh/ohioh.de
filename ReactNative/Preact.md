@@ -46,6 +46,12 @@ https://preactjs.com/
 
 https://preactjs.com/guide/v10/switching-to-preact
 
+
+## Aliasing:
+Use React-world features:
+ react and react-dom queries has to be relinked. This is called aliasing.
+ 
+
 ## Fragments:
 Components to render Child elements without an extra DOM element.
 https://preactjs.com/guide/v10/components/#fragments
