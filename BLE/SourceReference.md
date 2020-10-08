@@ -1,6 +1,10 @@
 
 ## Introduction:
 ## Links&Videos:
+
+!!! https://github.com/abandonware/node-bluetooth-hci-socket/tree/master/examples !!!
+
+
 https://www.youtube.com/watch?v=BZq2R4bR_NM
 
 https://github.com/thegecko/webbluetooth
