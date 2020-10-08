@@ -17,7 +17,14 @@ https://www.bluetooth.com/bluetooth-resources/progressive-bluetooth-apps-with-we
 
 https://github.com/blueappio
 
-https://github.com/topics/web-bluetooth?l=javascript
+(https://github.com/topics/web-bluetooth?l=javascript)
+https://github.com/GoogleChromeLabs/rowing-monitor
+https://github.com/jvallelunga/redux-bluetooth
+https://github.com/kasparsd/sensor-pilot
+https://github.com/Darkle/BlueLoss-Desktop-App-Windows
+
+Stream:
+https://github.com/AkosLukacs/PuckStreaming
 
 
 
