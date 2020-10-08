@@ -1,6 +1,10 @@
 
 ## Introduction:
 ## Links&Videos:
+https://github.com/sandeepmistry/p5.ble.js
+https://github.com/sandeepmistry/node-core-bluetooth
+https://github.com/sandeepmistry/btstack
+https://github.com/sandeepmistry/node-bluetooth-bulb/blob/master/index.js
 
 !!! https://github.com/abandonware/node-bluetooth-hci-socket/tree/master/examples !!!
 
