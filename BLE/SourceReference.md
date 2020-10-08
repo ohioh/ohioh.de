@@ -15,6 +15,8 @@ https://webbluetoothcg.github.io/web-bluetooth/
 
 https://www.bluetooth.com/bluetooth-resources/progressive-bluetooth-apps-with-web-bluetooth/
 
+https://github.com/blueappio
+
 
 
 
