@@ -1,6 +1,19 @@
 
 ## Introduction:
 ## Links&Videos:
+https://www.youtube.com/watch?v=BZq2R4bR_NM
+
+https://github.com/thegecko/webbluetooth
+
+https://github.com/chrvadala/node-ble
+
+https://gist.github.com/Cinezaster/7746471
+
+https://github.com/IjzerenHein/node-web-bluetooth#readme
+
+
+
+
 # youtube:
 https://www.bluetooth.com/bluetooth-resources/?types=video&categories=training-videos
 youtube:
