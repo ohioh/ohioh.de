@@ -11,6 +11,8 @@ https://gist.github.com/Cinezaster/7746471
 
 https://github.com/IjzerenHein/node-web-bluetooth#readme
 
+https://webbluetoothcg.github.io/web-bluetooth/
+
 
 
 
