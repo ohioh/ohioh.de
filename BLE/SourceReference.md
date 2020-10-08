@@ -17,6 +17,8 @@ https://www.bluetooth.com/bluetooth-resources/progressive-bluetooth-apps-with-we
 
 https://github.com/blueappio
 
+https://github.com/topics/web-bluetooth?l=javascript
+
 
 
 
