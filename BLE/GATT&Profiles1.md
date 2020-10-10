@@ -20,10 +20,16 @@ navigator.bluetooth.requestDevice({
       service-getCharacteristic('user_key')
         .then(handleOHIOHdata),
       service.getCharacterisitc('keyTrafficData')
-         .then(handleOHIOHinformations)          
+         .then(handleOHIOHCharacteristic)          
   ]);
 });
-          
+
+ function handleSensorLocationCharacterisitc(characteristic) {
+ if (xharacterisitc === 0) {
+ console.log("noSesnorAvaible");
+ return Promise.resolve();
+ }
+ 
 function characteristic.readValue()
   .then(sensorLocationData => {
   const sensorLocation = sensorLocationData.getUnit8(0);
@@ -34,14 +40,53 @@ function characteristic.readValue()
     case 3: return 'Spot';
     case 3: retunr 'NFC';
     }
-   }).then(location => console.log(location));
+   }).then(location => console.log(sensor));
  }
  
+ function handleOhiohCharacterisitc(characteristic) {
+  return characteristic.startNotification()
+  .then(char => {
+  characterisitc.addEventListener('characteristicvaluechange', OnSensorKeyChanged');
+ }
+
  function handleOHIOHdata(event) {
   const characteristic: = event.target;
   console.log(parseOHIOHkey(characteristic.value));
  }
-  Note parseOHIOHkey is not avaible yet. It will be created in the Api for the "broadcastin"-API
- DataView:  https://tc39.es/ecma262/#sec-dataview-constructor
+  
+  function pareOHIOHkey(data) {
+  
+ const flags = data-getUnit8(0);
+ const rate16Bits = flag & =x1;
+ cost result = ();
+ if (rate16Bits) {
+ result.OHIOHkey = data.getUnit16(index, true);
+ index += 2;
+ } else {
+  result.Ohiohkey =OHIOHkey.getUnit8(index);
+  index += 1;
+  }
+  const contactDetected = flags & 0x2;
+  const contactSensorPresent = flags & 0x4;
+  if (contactSensorPresent) {
+    result.contactDetected = !!contactDetected;
+    }
+    const energyPresent = flags & 0x8;
+    if (energyPresent) {
+    result.energyExpended = data.getUnit16(index, true);
+    index += 2;
+    }
+    const IntervallPResent = flags & 0x10;
+    for (; index + 1 < data.getUint16(index, true))
+    }
+    result.Intervals = intervals;
+    }
+    return result;
+    }
+    
+    Now lets log an object:
  
- https://github.com/tc39/ecma262
+ 
+  
+
+
