@@ -1,3 +1,5 @@
+https://medium.com/@jyasskin/the-web-bluetooth-security-model-666b4e7eed2
+
 2. Security and privacy considerations
 2.1. Device access is powerful
 When a website requests access to devices using requestDevice(), it gets the ability to access all GATT services mentioned in the call. The UA MUST inform the user what capabilities these services give the website before asking which devices to entrust to it. If any services in the list aren’t known to the UA, the UA MUST assume they give the site complete control over the device and inform the user of this risk. The UA MUST also allow the user to inspect what sites have access to what devices and revoke these pairings.
