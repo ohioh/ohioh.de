@@ -12,3 +12,5 @@ https://github.com/beaufortfrancois/sandbox/tree/gh-pages/web-bluetooth/bluetoot
 and in the APP:
 
 https://beaufortfrancois.github.io/sandbox/web-bluetooth/generator/
+
+https://github.com/beaufortfrancois/sandbox/tree/gh-pages/web-bluetooth/react
