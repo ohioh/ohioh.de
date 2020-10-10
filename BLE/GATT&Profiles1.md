@@ -1,5 +1,5 @@
 GATT ( Generic Attribute Profile)
-
+UA= UserApplication
 Option 1: Observer and Broadcaster
 Option 2: Peripheral ( maybe with Central Switch Profile) 
 Peripheral or Central role can host a GATT Server.
@@ -103,7 +103,9 @@ function characteristic.readValue()
    }
    
  
+ ## Device acces from website:
  
+ requestDEvice() can get access to all GATT Services
   
 
 
