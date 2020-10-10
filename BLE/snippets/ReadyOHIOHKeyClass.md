@@ -1,4 +1,4 @@
-listen , write and notify
+async listen , write and notify
 
 https://beaufortfrancois.github.io/sandbox/web-bluetooth/generator/
 
