@@ -1,5 +1,7 @@
 listen , write and notify
 
+https://beaufortfrancois.github.io/sandbox/web-bluetooth/generator/
+
 class OHIOHKey {
 
   constructor() {
