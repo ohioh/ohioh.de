@@ -1153,3 +1153,6 @@ partial interface Navigator {
   [SameObject]
   readonly attribute Bluetooth bluetooth;
 };
+
+Content from and copy right at https://html.spec.whatwg.org/multipage/webappapis.html#event-handler-idl-attributes
+https://html.spec.whatwg.org/multipage/webappapis.html#event-handler-idl-attributes
