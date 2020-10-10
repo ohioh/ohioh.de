@@ -84,7 +84,24 @@ function characteristic.readValue()
     return result;
     }
     
-    Now lets log an object:
+    Now lets look to possible log an object:
+    { OHIOHkey: 56,
+    contaactDetected: true,
+    energyExpendend: 75,
+    Intervals: [1,2]
+    }
+    
+    function resetEnergyExpended() {
+    if (!choseOHIOHService)  {
+      return Promise.reject(new Error(' No contact' ));
+      }
+      return chosenOHIOHService.getCharacteristic('Contact_messure_controllPoint')
+      then( controlPoint => {
+      const resetEnergyExpended = new Uint8Array([1]);
+      return controlPoint.writeValie(resetEnergyExpended);
+     });
+   }
+   
  
  
   
