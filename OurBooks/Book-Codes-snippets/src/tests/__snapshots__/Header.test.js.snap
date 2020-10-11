@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Header /> should render a title and nav 1`] = `
+e {
+  "attributes": undefined,
+  "children": Array [],
+  "key": undefined,
+  "nodeName": [Function],
+}
+`;

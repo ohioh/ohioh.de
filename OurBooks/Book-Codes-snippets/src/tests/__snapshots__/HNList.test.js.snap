@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HNList /> should a HNList of articles 1`] = `
+e {
+  "attributes": Object {
+    "endpoint": "/news",
+    "page": "1",
+  },
+  "children": Array [],
+  "key": undefined,
+  "nodeName": [Function],
+}
+`;

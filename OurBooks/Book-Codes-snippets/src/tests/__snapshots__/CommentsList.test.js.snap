@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CommentsList /> should render a list of comments 1`] = `
+e {
+  "attributes": Object {
+    "comments": Array [
+      Object {
+        "comments": Array [],
+        "content": "Test body",
+        "level": 0,
+        "time_ago": "3 days ago",
+        "user": "vutran",
+      },
+      Object {
+        "comments": Array [
+          Object {
+            "comments": Array [],
+            "content": "Test reply body",
+            "level": 0,
+            "time_ago": "4 days ago",
+            "user": "tranvu",
+          },
+        ],
+        "content": "Test body",
+        "level": 0,
+        "time_ago": "5 days ago",
+        "user": "vutran",
+      },
+    ],
+  },
+  "children": Array [],
+  "key": undefined,
+  "nodeName": [Function],
+}
+`;

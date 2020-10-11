@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Item /> should render a list item 1`] = `
+e {
+  "attributes": Object {
+    "item": Object {
+      "time_ago": "3 days ago",
+      "title": "Test Title",
+    },
+  },
+  "children": Array [],
+  "key": undefined,
+  "nodeName": [Function],
+}
+`;

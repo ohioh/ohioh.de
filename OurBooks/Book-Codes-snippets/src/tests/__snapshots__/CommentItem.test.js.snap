@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CommentItem /> should render a comment item 1`] = `
+e {
+  "attributes": Object {
+    "comment": Object {
+      "comments": Array [],
+      "content": "Test body",
+      "level": 0,
+      "time_ago": "3 days ago",
+      "user": "vutran",
+    },
+  },
+  "children": Array [],
+  "key": undefined,
+  "nodeName": [Function],
+}
+`;
+
+exports[`<CommentItem /> should render a comment replies 1`] = `
+e {
+  "attributes": Object {
+    "comment": Object {
+      "comments": Array [
+        Object {
+          "comments": Array [],
+          "content": "Test reply body",
+          "level": 1,
+          "time_ago": "2 days ago",
+          "user": "tranvu",
+        },
+      ],
+      "content": "Test body",
+      "level": 0,
+      "time_ago": "3 days ago",
+      "user": "vutran",
+    },
+  },
+  "children": Array [],
+  "key": undefined,
+  "nodeName": [Function],
+}
+`;

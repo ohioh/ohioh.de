@@ -1,0 +1,24 @@
+.root {
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	margin-bottom: 30px;
+}
+
+.number {
+	font-size: 1em;
+	margin-right: 15px;
+}
+
+.title {
+	margin: 0px;
+	font-size: 1em;
+}
+
+.meta {
+	font-size: 0.7em;
+}
+
+.comment::before {
+	content: ' | ';
+}
