@@ -1,5 +1,5 @@
 https://www.simicart.com/manifest-generator.html/
-
+https://github.com/onderceylan/pwa-asset-generator
 
 IOS :
 https://appsco.pe/developer/splash-screens
@@ -49,3 +49,8 @@ to index.html
 "short_name" : "OHIOH"
 "description" : "Maden for research"
 }
+
+## Additional content:
+<link rel="apple-touch-startup-image" 
+media="screen and (device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)"
+href="/image.png" />
