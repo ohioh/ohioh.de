@@ -29,12 +29,15 @@ navigator.bluetooth.requestLEScan({
 })
 ```
 ## Scanning for BLE Advertisments:
-
+```javascript
 dictionary BluetoothLEScanOptions {
   sequence<BluetoothLEScanFilterInit> filters;
   boolean keepRepeatedDevices = false;
   boolean acceptAllAdvertisements = false;
 };
+
+```
+
 
 partial interface Bluetooth {
   [SecureContext]
@@ -52,6 +55,7 @@ Normally scans will discard the second and subsequent advertisements from a sing
 In the rare case that you want to receive every advertisement without filtering them, use the acceptAllAdvertisements field.
 
 ## Controll and stop Scan:
+```javascript
 
 interface BluetoothDataFilter {
   constructor(optional BluetoothDataFilterInit init);
@@ -87,10 +91,15 @@ interface BluetoothLEScan {
 
   void stop();
 };
+```
+
 NOTE: BluetoothLEScan MEMBERS
 BluetoothLEScan.stop() stops a previously-requested scan. Sites should do this as soon as possible to avoid wasting power.
 
 ## Permisssion to scan :
+
+```javascript
+
 dictionary BluetoothLEScanPermissionDescriptor : PermissionDescriptor {
   // These match BluetoothLEScanOptions.
   sequence<BluetoothLEScanFilterInit> filters;
@@ -102,6 +111,8 @@ reulst type:
 interface BluetoothLEScanPermissionResult : PermissionStatus {
   attribute FrozenArray<BluetoothLEScan> scans;
 };
+```
+
 
 ## Event Handling
 
