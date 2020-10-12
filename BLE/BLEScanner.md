@@ -4,7 +4,7 @@ all rights are at w3c
 This is for the Boradcast concept with an observer ( example smartphone and beacon )
 
 To discover what iBeacons are nearby and measure their distance, a website could use code like the following:
-
+```javascript
 function recordNearbyBeacon(major, minor, pathLossVs1m) { ... }
 navigator.bluetooth.requestLEScan({
   filters: [{manufacturerData: {0x004C: {dataPrefix: new Uint8Array([
@@ -27,7 +27,7 @@ navigator.bluetooth.requestLEScan({
     recordNearbyBeacon(major, minor, pathLossVs1m);
   });
 })
-
+```
 ## Scanning for BLE Advertisments:
 
 dictionary BluetoothLEScanOptions {
