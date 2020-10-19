@@ -7,6 +7,7 @@ https://help.content.samsung.com/csweb/faq/searchFaq.do
 chrome://webapks
 chrome://internals/web-app
 chrome://restart
+chrome://flags/#enable-experimental-web-platform-features
 
 ## WebAPKvs.PWA
 https://www.inovex.de/blog/progressive-web-apps-vs-webapks/
