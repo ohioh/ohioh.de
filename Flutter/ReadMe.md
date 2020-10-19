@@ -39,6 +39,7 @@ https://pub.dev/packages/flutter_bluetooth_serial_extended
 https://pub.dev/packages/blemulator
 https://pub.dev/packages/flutter_ble_lib
 https://pub.dev/packages/flutter_blue
+-> article: https://medium.com/flutter-community/flutter-for-bluetooth-devices-5594f105b146
 
 ##HTML
 ### easy_web_view:
