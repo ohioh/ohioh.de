@@ -8,6 +8,7 @@ chrome://webapks
 chrome://internals/web-app
 chrome://restart
 chrome://flags/#enable-experimental-web-platform-features
+chrome://inspect/#service-workers
 
 ## WebAPKvs.PWA
 https://www.inovex.de/blog/progressive-web-apps-vs-webapks/
