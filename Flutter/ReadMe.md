@@ -1,5 +1,8 @@
 # Introduction:
 
+## Samsung Internet
+https://help.content.samsung.com/csweb/faq/searchFaq.do
+
 ## Chrome:
 chrome://webapks
 chrome://internals/web-app
@@ -25,13 +28,13 @@ chrome://restart
 ## Bluetoothlib:
 
 ### only Android:
-https://pub.dev/packages/flutter_blue
 https://pub.dev/packages/flutter_reactive_ble
 https://pub.dev/packages/flutter_bluetooth_serial_extended
 
 ### Dart/Flutter:
 https://pub.dev/packages/blemulator
 https://pub.dev/packages/flutter_ble_lib
+https://pub.dev/packages/flutter_blue
 
 ##HTML
 ### easy_web_view:
