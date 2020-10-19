@@ -14,6 +14,9 @@ https://developers.google.com/web/android/trusted-web-activity/integration-guide
 ## Manifest as trigger
 https://web.dev/manifest-updates/
 
+## Link  DArt and HTML
+https://dart.dev/tutorials/web/low-level-html/connect-dart-html
+
 ##  Check Chrome for Manifests:
 chrome://internals/web-app
 chrome://restart
