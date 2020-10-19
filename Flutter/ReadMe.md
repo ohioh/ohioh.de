@@ -1,4 +1,23 @@
 # Introduction:
+
+## Chrome:
+chrome://webapks
+chrome://internals/web-app
+chrome://restart
+
+## WebAPKvs.PWA
+https://www.inovex.de/blog/progressive-web-apps-vs-webapks/
+
+## PWA  mmeets Trusted Web App
+https://developers.google.com/web/android/trusted-web-activity/integration-guide
+
+## Manifest as trigger
+https://web.dev/manifest-updates/
+
+##  Check Chrome for Manifests:
+chrome://internals/web-app
+chrome://restart
+
 # Links&Videos:
 ## Bluetoothlib:
 
