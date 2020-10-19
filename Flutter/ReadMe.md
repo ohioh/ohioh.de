@@ -26,6 +26,9 @@ chrome://internals/web-app
 chrome://restart
 
 # Links&Videos:
+## Web Bluetooth
+https://github.com/WebBluetoothCG/web-bluetooth
+
 ## Bluetoothlib:
 
 ### only Android:
