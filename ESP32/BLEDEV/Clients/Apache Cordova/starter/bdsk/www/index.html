@@ -1,0 +1,98 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+    <meta name="viewport" content="initial-scale=1.0,user-scalable=no">
+    <title>Bluetooth SIG</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
+    <script type="text/javascript" src="js/audio.js"></script>
+    <script type="text/javascript" src="js/utils.js"></script>
+    <script>
+        var device_list_hidden = false;
+var main_hidden = true;
+var message_hidden = false;
+
+var DEVICE_LIST = 1;
+var MAIN = 2;
+
+function ready() {
+  init();
+}
+
+function scrollingControl(e) {
+    if (!main_hidden) {
+        e.preventDefault();
+    }
+}
+
+function init() {
+    // prevent scrolling
+    document.addEventListener('touchmove', scrollingControl , false);
+  device_list_hidden = false;
+  main_hidden = true;
+  message_hidden = false;
+  setDivVisibility();
+  document.getElementById('find').style.visibility = 'visible';
+  showMessage("");
+}
+
+function initSettings() {    
+}
+
+function setDivVisibility() {
+  document.getElementById('device_list').hidden = device_list_hidden;
+  document.getElementById('message').hidden = message_hidden;
+  document.getElementById('main_page').hidden = main_hidden;
+}
+
+</script>
+</head>
+
+<body onload="initSettings();">
+
+    <!-- Scanning and Device List -->
+    <div id="device_list" class="screen">
+        <h2>Bluetooth LE Developer Study Guide</h2>
+        <table>
+            <tr>
+                <td><button id="find" class="wide_button" onclick="app.findDevices()">Scan</button></td>
+            </tr>
+        </table>
+
+        <div class="status" id="message"></div>
+        <table id="tbl_devices">
+        </table>
+    </div>
+
+    <!-- main Page -->
+    <div id="main_page" class="full_screen" hidden="true">
+        <h2>Bluetooth LE Developer Study Guide</h2>
+        <button class="wide_button_slim" onclick="app.exitMain()">Back</button>
+        <div class="centred" id="device_details"></div>
+        <div class="rssi" id="rssi">&nbsp;</div>
+        <div id="proximity_rectangle" class="proximity_rectangle"></div>
+        <table>
+            <tr>
+                <td class="third"><button id="btn_low" class="wide_button" onclick="app.setAlertLevel(0)">LOW</button></td>
+                <td class="third"><button id="btn_mid" class="wide_button" onclick="app.setAlertLevel(1)">MID</button></td>
+                <td class="third"><button id="btn_high" class="wide_button" onclick="app.setAlertLevel(2)">HIGH</button></td>
+            </tr>
+        </table>
+        <div class="switch"><label class="switch_label"><input class="large_cb" type="checkbox" id="sharing" value="0"
+                    onclick="app.setSharing()">Share</label></div>
+        <div class="switch"><label class="switch_label"><input class="large_cb" type="checkbox" id="temp_monitoring"
+                    value="0" onclick="app.setTemperatureMonitoring()">Monitor Temperature</label></div>
+        <div class="full_centred" id="temperature">not available</div>
+        <div class="footer">
+            <div id="info" class="full_centred"></div>
+            <div class="full_centred"><button id="btn_noise" class="wide_button" onclick="app.makeNoise()">MAKE A NOISE</button></div>
+            <div class="full_centred"><button id="btn_connect" class="wide_button" onclick="app.toggleConnectionState()">CONNECT</button></div>
+        </div>
+    </div>
+
+</body>
+
+</html>

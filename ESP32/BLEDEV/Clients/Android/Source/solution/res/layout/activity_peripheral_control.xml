@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/nameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:text="name" />
+
+    <TextView
+        android:id="@+id/rssiTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nameTextView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="RSSI" />
+
+    <LinearLayout
+        android:id="@+id/rectangle"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/rssiTextView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="21dp"
+        android:background="#FF0000"
+        android:orientation="vertical"
+        android:padding="10dp" >
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/lowButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/midButton"
+        android:layout_marginRight="21dp"
+        android:layout_toLeftOf="@+id/midButton"
+        android:onClick="onLow"
+        android:text="Low" />
+
+    <Button
+        android:id="@+id/midButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rectangle"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="21dp"
+        android:onClick="onMid"
+        android:text="Mid" />
+
+    <Button
+        android:id="@+id/highButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/midButton"
+        android:layout_alignBottom="@+id/midButton"
+        android:layout_marginLeft="28dp"
+        android:layout_toRightOf="@+id/midButton"
+        android:onClick="onHigh"
+        android:text="High" />
+
+    <Button
+        android:id="@+id/connectButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="26dp"
+        android:onClick="onConnect"
+        android:text="Connect" />
+
+    <Button
+        android:id="@+id/noiseButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/connectButton"
+        android:layout_centerHorizontal="true"
+        android:onClick="onNoise"
+        android:text="Make a noise" />
+
+    <TextView
+        android:id="@+id/msgTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/noiseButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="" />
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/rectangle"
+        android:layout_alignRight="@+id/rectangle"
+        android:layout_below="@+id/lowButton"
+        android:layout_marginTop="26dp"
+        android:text="Share" />
+
+    <Switch
+        android:id="@+id/switch2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/rectangle"
+        android:layout_alignRight="@+id/rectangle"
+        android:layout_below="@+id/switch1"
+        android:layout_marginTop="26dp"
+        android:text="Monitor Temperature" />
+
+    <TextView
+        android:id="@+id/temperatureLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/switch2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:text="Temperature"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/temperatureValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/temperatureLabel"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="not available"
+        android:textStyle="bold"
+        android:textColor="#FF0000"/>
+
+</RelativeLayout>
